@@ -1,5 +1,97 @@
+html{
+  height: 100%;
+}
 h1 {
-  color: #369;
+  color: #FFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
+}
+.logIn h2{
+
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logIn input{
+
+  width: inherit;
+}
+.logIn{
+
+  width: inherit;
+  margin: 30px;
+}
+body{
+  background-image: url(/app/images/login-fondo.jpg);
+  background-size: cover;
+  display: block;
+  height: inherit;
+  align-items: center;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+logInComponent{
+  position: absolute;               /* 2 */
+  top: 50%;
+  left: 50%;                        /* 3 */
+  transform: translate(-50%, -50%);
+}
+
+my-app{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+shop{
+  height: 100%;
+}
+
+shop cart{
+  display: none;
+
+}
+
+.productsDiv{
+  width: 90%;
+  height: 100%-60px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: #FFF;
+  border-radius: 5px;
+  display: block;
+}
+
+.navBar{
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 5px;
+  background-color: #FFF;
+  border-radius: 5px;
+  display: block;
+}
+
+
+
+.navTitle{
+  float: left;
+  color: black;
+  font-size: 100%;
+  margin: 10px;
+}
+
+.navButton {
+  float: right;
+  color: black;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+
+}
+
+.navButton:hover{
+  background-color: #dbdbdb;
 }
